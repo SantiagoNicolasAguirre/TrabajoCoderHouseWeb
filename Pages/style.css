@@ -1,0 +1,370 @@
+body {
+    background-image: url(https://services.meteored.com/img/article/por-que-el-cielo-se-torna-naranja-durante-el-atardecer-1684770960305_1280.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*tipografia*/
+
+@font-face {
+    font-family: "Santiago";
+    src: url(./../Assets/Fonts/kanit/Kanit-Black.ttf);
+}
+
+
+/*barra de navegacion*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.Logo{
+    width: 120px;
+}
+
+
+/*titulos h1*/
+
+.reuniones23 {
+    display: flex;
+    width: center;
+    height: 50%;
+    margin-right: auto;
+    margin-left: center;
+    justify-content: center;
+    background-color: rgb(165, 104, 104);
+    font-size: auto;
+    border-radius: 3px;
+    font-family: "Santiago"
+}
+
+/*Reunion de Oracion*/
+
+.martes19{
+    margin: 50px auto;
+    width: 40%;
+}
+
+.martes-text{
+    background-color: azure;
+    
+}
+
+.martes-text h2{
+    font-size: 42px;
+}
+
+.martes-text p{
+    font-size: 16px;
+}
+
+.martes-img {
+    max-width: 320px;
+    float: right;
+    border-radius: 10px;
+}
+
+/*Reunion de mujeres*/
+
+.miercoles15{
+    margin: 50px auto;
+    width: 40%;
+}
+
+.miercoles-text{
+    background-color: azure;
+    
+}
+
+.miercoles-text h2{
+    font-size: 42px;
+}
+
+.miercoles-text p{
+    font-size: 16px;
+}
+
+.miercoles-img {
+    max-width: 320px;
+    float: left;
+    border-radius: 10px;
+}
+
+/*Reunion de los viernes*/
+
+.viernes19{
+    margin: 120px auto;
+    width: 40%;
+}
+
+.viernes-text{
+    background-color: azure;
+    
+}
+
+.viernes-text h2{
+    font-size: 42px;
+}
+
+.viernes-text p{
+    font-size: 16px;
+}
+
+.viernes-img {
+    max-width: 320px;
+    float: right;
+    border-radius: 10px;
+}
+
+/*Escuela Biblica*/
+
+.sabado16{
+    margin: 50px auto;
+    width: 40%;
+}
+
+.eb-text{
+    background-color: azure;
+    
+}
+
+.eb-text h2{
+    font-size: 42px;
+}
+
+.eb-text p{
+    font-size: 16px;
+}
+
+.eb-img {
+    max-width: 320px;
+    float: left;
+    border-radius: 10px;
+    
+}
+
+/*Reunion de Jovenes*/
+
+.sabado19{
+    margin: 120px auto;
+    width: 40%;
+}
+
+.joven-text{
+    background-color: azure;
+    
+}
+
+.joven-text h2{
+    font-size: 42px;
+}
+
+.joven-text p{
+    font-size: 16px;
+}
+
+.joven{
+    max-width: 320px;
+    float: right;
+    border-radius: 10px;
+}
+
+/*reunione de hombre*/
+
+.sabado20{
+    margin: 50px auto;
+    width: 40%;
+}
+
+.hombre-text{
+    background-color: azure;
+    
+}
+
+.hombre-text h2{
+    font-size: 42px;
+}
+
+.hombre-text p{
+    font-size: 16px;
+}
+
+.hombre {
+    max-width: 320px;
+    float: left;
+    border-radius: 10px;
+}
+
+/*reunion de los domingos*/
+
+.domingo{
+    margin: 120px auto;
+    width: 40%;
+}
+
+.domingo-text{
+    background-color: azure;
+    
+}
+
+.domingo-text h2{
+    font-size: 42px;
+}
+
+.domingo-text p{
+    font-size: 16px;
+}
+
+.domingo-img{
+    max-width: 320px;
+    float: right;
+    border-radius: 10px;
+}
+
+
+/*nosotros*/
+
+/*solano*/
+.solano{
+    margin: 50px auto;
+    width: 40%;
+}
+
+.solano-text{
+    background-color: azure;
+    
+}
+
+.solano-text h2{
+    font-size: 42px;
+}
+
+.solano-text p{
+    font-size: 16px;
+}
+
+.solano-img {
+    max-width: 320px;
+    float: right;
+    border-radius: 10px;
+}
+
+/*¨santiago del estero 1*/
+.santiagoestero{
+    margin: 50px auto;
+    width: 40%;
+}
+
+.santiago-text{
+    background-color: azure;
+    
+}
+
+.santiago-text h2{
+    font-size: 42px;
+}
+
+.santiago-text p{
+    font-size: 16px;
+}
+
+.santiago-img {
+    max-width: 320px;
+    float: left;
+    border-radius: 10px;
+}
+
+/*nueva esperanza*/
+.nuevaesperanza{
+    margin: 50px auto;
+    width: 40%;
+}
+
+.nueva-text{
+    background-color: azure;
+    
+}
+
+.nueva-text h2{
+    font-size: 42px;
+}
+
+.nueva-text p{
+    font-size: 16px;
+}
+
+.nueva-img {
+    max-width: 320px;
+    float: right;
+    border-radius: 10px;
+}
+
+/*Nosotros*/
+.nosotros1{
+    display: flex;
+    justify-content: center;
+}
+.nosotros1-img{
+    width: 500px;
+    height: 500px ;
+    float: center;
+    border-radius: 10px;
+}
+
+.letra-text{
+    margin: 100px auto;
+    width: 60%;
+}
+
+.letra-text{
+    background-color: azure;
+    
+}
+
+.letra-text p{
+    font-size: 20px;
+}
+
+/*predicaciones*/
+
+.yt{
+    width: 800px;
+    height: 500px ;
+    float: center;
+    border-radius: 10px;
+}
+
+.yt-1{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+}
+

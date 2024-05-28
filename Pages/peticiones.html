@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peticiones</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div><img src="./../Assets/Fotos/Logo 2.jpg" class="Logo" alt="Logo de la Iglesia"></div>
+            <ul>
+                <li><a href="./../index.html">Inicio</a></li>
+                <li><a href="./reuniones.html">Reuniones</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./predicaciones.html">Predicaciones</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <article class="mal23">
+        <h1>La estas pasando mal?</h1>
+    </article>
+
+    <h2>Queres que oremos por vos?</h2>
+    <h2>Rellena el siguiente fomrmulario y oramos por vos!</h2>
+
+    <form>
+        <fieldset>
+            <label for="Tu Nombre">Tu Nombre</label>
+            <input id="Nombre" type="text" placeholder="Tu Nombre">
+
+            <label for="Tu apellido">Tu apellido </label>
+            <input id="Apellido" type="text" placeholder="Tu apellido">
+
+            <label for="Correo electronico">Correo electronico</label>
+            <input id="Correo electronico" type="text" placeholder="Correo electronico">
+
+            <label for="Celular">Celular</label>
+            <input id="Celular" type="text" placeholder="Celular">
+
+            
+        </fieldset>
+
+        <H3>Porque oramos por vos?</H3>
+
+        <fieldset>
+            <input type="checkbox" name="Trabajo" id="1"> 
+            <label for="1">Trabajo</label>
+            <input type="checkbox" name="Salud" id="2"> 
+            <label for="2">Salud</label>
+            <input type="checkbox" name="Adicciones" id="3"> 
+            <label for="3">Adicciones</label>
+            <input type="checkbox" name="Familia" id="4"> 
+            <label for="4">Familia</label>
+            <input type="checkbox" name="Otros" id="5"> 
+            <label for="5">Otros</label>
+        </fieldset>
+
+        <h3>Queres escribir con mas detalle o no esta en la lista?</h3>
+        <fieldset>
+            <textarea name="Escribir peticion" id="" cols="80" rows="6"></textarea>
+            <label for="Escribir peticion">Escribir peticion</label>
+        </fieldset>
+        <h3>Queres que pongamos tu nombre?</h3>
+        <fieldset>
+            <input type="radio" name="Si" id="23">
+            <label for="23">Si</label>
+            <input type="radio" name="Anonimo" id="23">
+            <label for="24">Anonimo</label>
+        </fieldset>
+
+        <div>
+            <input type="button" value="Limpiar todo">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>

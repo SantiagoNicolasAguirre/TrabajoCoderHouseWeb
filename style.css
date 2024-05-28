@@ -1,0 +1,108 @@
+body{
+    background-image: url(https://services.meteored.com/img/article/por-que-el-cielo-se-torna-naranja-durante-el-atardecer-1684770960305_1280.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*tipografia*/
+@font-face {
+    font-family: "Santiago";
+    src: url(./../Assets/Fonts/kanit/Kanit-Black.ttf);
+}
+
+/*barra de navegacion*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.Logo{
+    width: 120px;
+}
+
+/*Titulo*/
+.Titulo1{
+    display: flex;
+    width: center;
+    min-height: center;
+    margin-right: auto;
+    margin-left: center;
+    justify-content: center;
+}
+
+/*Fotos*/
+.todosjuntos{
+    font: size 300px; 
+    /*
+    width: 1000px;
+    display: flex;
+    width: center;
+    height: center;
+    margin-right: auto;
+    margin-left: center;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.tx23 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: center;
+    min-height: center;
+    margin-left: center;
+    margin-right: auto;
+    border-radius: 3px;
+   
+}
+
+.tx24{
+    background-color: white;
+    width: center;
+    min-height: center;
+    margin-left: auto;
+    margin-right: 79%;
+    border-radius: 3px;
+}
+
+
+/*carrusel*/
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    min-height: 700px;
+    }
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+}
+    
+
+
