@@ -266,10 +266,16 @@ a{
 
 /*nosotros*/
 
+.reuniones23 h1{
+    display: flex;
+}
+
 /*solano*/
 .solano{
+    justify-content: center;
     margin: 50px auto;
     width: 40%;
+    display: flex;
 }
 
 .solano-text{
@@ -293,8 +299,10 @@ a{
 
 /*¨santiago del estero 1*/
 .santiagoestero{
+    justify-content: center;
     margin: 50px auto;
     width: 40%;
+    display: flex;
 }
 
 .santiago-text{
@@ -312,14 +320,16 @@ a{
 
 .santiago-img {
     max-width: 320px;
-    float: left;
+    float: right;
     border-radius: 10px;
 }
 
 /*nueva esperanza*/
 .nuevaesperanza{
+    justify-content: center;
     margin: 50px auto;
     width: 40%;
+    display: flex;;
 }
 
 .nueva-text{
