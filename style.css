@@ -54,8 +54,9 @@ li a{
 
 /*Fotos*/
 
+/*
 .todosjuntos{
-    /*font: size 300px; 
+    font: size 300px; 
     
     width: 1000px;
     display: flex;
@@ -64,8 +65,8 @@ li a{
     margin-right: auto;
     margin-left: center;
     justify-content: center;
-    align-items: center;*/
-}
+    align-items: center;
+}*/
 
 .tx23 {
     padding: 50px;
@@ -98,6 +99,8 @@ li h3 {
 .slide img{
     height: 40vw;
 }
+
+
 /*
 .carousel {
     display: flex;
