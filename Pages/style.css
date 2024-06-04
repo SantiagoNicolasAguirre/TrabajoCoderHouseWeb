@@ -50,9 +50,9 @@ a{
 .reuniones23 {
     display: flex;
     width: center;
-    height: 50%;
+    height: auto;
     margin-right: auto;
-    margin-left: center;
+    margin-left: auto;
     justify-content: center;
     background-color: rgb(165, 104, 104);
     font-size: auto;
@@ -63,34 +63,40 @@ a{
 /*Reunion de Oracion*/
 
 .martes19{
-    margin: 50px auto;
-    width: 40%;
+    justify-content: center;
+    margin: 30px;
+    width: auto;
+    display: flex;
+    ;
 }
 
 .martes-text{
+    float: right;
     background-color: azure;
-    
 }
 
 .martes-text h2{
     font-size: 42px;
+
 }
 
 .martes-text p{
     font-size: 16px;
+    text-align: center;
 }
 
 .martes-img {
     max-width: 320px;
-    float: right;
     border-radius: 10px;
 }
 
 /*Reunion de mujeres*/
 
 .miercoles15{
-    margin: 50px auto;
-    width: 40%;
+    justify-content: center;
+    margin: 30px;
+    width: auto;
+    display: flex;
 }
 
 .miercoles-text{
@@ -104,19 +110,21 @@ a{
 
 .miercoles-text p{
     font-size: 16px;
+    text-align: center;
 }
 
 .miercoles-img {
-    max-width: 320px;
-    float: left;
+    max-width: 300px;
     border-radius: 10px;
 }
 
 /*Reunion de los viernes*/
 
 .viernes19{
-    margin: 120px auto;
-    width: 40%;
+    justify-content: center;
+    margin: 30px;
+    width: auto;
+    display: flex;
 }
 
 .viernes-text{
@@ -130,19 +138,21 @@ a{
 
 .viernes-text p{
     font-size: 16px;
+    text-align: center;
 }
 
 .viernes-img {
     max-width: 320px;
-    float: right;
     border-radius: 10px;
 }
 
 /*Escuela Biblica*/
 
 .sabado16{
-    margin: 50px auto;
-    width: 40%;
+    justify-content: center;
+    margin: 30px;
+    width: auto;
+    display: flex;
 }
 
 .eb-text{
@@ -156,6 +166,7 @@ a{
 
 .eb-text p{
     font-size: 16px;
+    text-align: center;
 }
 
 .eb-img {
@@ -168,8 +179,10 @@ a{
 /*Reunion de Jovenes*/
 
 .sabado19{
-    margin: 120px auto;
-    width: 40%;
+    justify-content: center;
+    margin: 30px;
+    width: auto;
+    display: flex;
 }
 
 .joven-text{
@@ -183,6 +196,7 @@ a{
 
 .joven-text p{
     font-size: 16px;
+    text-align: center;
 }
 
 .joven{
@@ -194,8 +208,10 @@ a{
 /*reunione de hombre*/
 
 .sabado20{
-    margin: 50px auto;
-    width: 40%;
+    justify-content: center;
+    margin: 30px;
+    width: auto;
+    display: flex;
 }
 
 .hombre-text{
@@ -209,6 +225,7 @@ a{
 
 .hombre-text p{
     font-size: 16px;
+    text-align: center;
 }
 
 .hombre {
@@ -220,8 +237,10 @@ a{
 /*reunion de los domingos*/
 
 .domingo{
-    margin: 120px auto;
-    width: 40%;
+    justify-content: center;
+    margin: 30px;
+    width: auto;
+    display: flex;
 }
 
 .domingo-text{
@@ -235,6 +254,7 @@ a{
 
 .domingo-text p{
     font-size: 16px;
+    text-align: center;
 }
 
 .domingo-img{
