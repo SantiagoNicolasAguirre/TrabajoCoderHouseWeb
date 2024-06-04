@@ -28,6 +28,7 @@ h1{
 }
 
 ul li{
+    background-color: aliceblue;
     display: inline-block;
     padding: 0px 20px;
 }
@@ -44,18 +45,15 @@ a{
 
 /*Titulo*/
 .Titulo1{
-    display: flex;
-    width: center;
-    min-height: center;
-    margin-right: auto;
-    margin-left: center;
-    justify-content: center;
+    padding: 50px;
+    text-align: center;
+    
 }
 
 /*Fotos*/
 .todosjuntos{
-    font: size 300px; 
-    /*
+    /*font: size 300px; 
+    
     width: 1000px;
     display: flex;
     width: center;
@@ -67,35 +65,39 @@ a{
 }
 
 .tx23 {
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    width: center;
-    min-height: center;
-    margin-left: center;
-    margin-right: auto;
-    border-radius: 3px;
+    padding: 50px;
+    text-align: center;
+    background-color: aliceblue;
    
 }
 
 .tx24{
-    background-color: white;
-    width: center;
-    min-height: center;
-    margin-left: auto;
-    margin-right: 79%;
-    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    background-color: aliceblue;
 }
 
+.tx25{
+    padding: 10px;
+    text-align: left;
+    
+}
 
 /*carrusel*/
+.slide{
+    margin-top: 10px;
+}
 
+.slide img{
+    height: 40vw;
+}
+/*
 .carousel {
     display: flex;
     justify-content: center;
     width: 1500px;
     min-height: 700px;
-    }
+    }*/
 
 @media (max-width:700px){
     header{
