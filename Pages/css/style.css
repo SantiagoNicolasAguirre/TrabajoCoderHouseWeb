@@ -450,6 +450,91 @@ input[type=submit] {
   outline: none;
 }
 
+/*tipografia*/
+@font-face {
+  font-family: "Santiago";
+  src: url(./../Assets/Fonts/kanit/Kanit-Black.ttf);
+}
+/*barra de navegacion*/
+nav .uno {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h1 {
+  color: white;
+  font-size: 55px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.Logo {
+  width: 120px;
+}
+
+/*Titulo*/
+.Titulo1 {
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+/*Fotos*/
+/*
+.todosjuntos{
+    font: size 300px; 
+
+    width: 1000px;
+    display: flex;
+    width: center;
+    height: center;
+    margin-right: auto;
+    margin-left: center;
+    justify-content: center;
+    align-items: center;
+}*/
+.tx23 {
+  padding: 50px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.tx24 {
+  padding: 10px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.tx25 {
+  padding: 10px;
+  text-align: left;
+}
+
+li h3 {
+  display: inline-block;
+}
+
+/*carrusel*/
+.slide {
+  margin-top: 10px;
+}
+
+.slide img {
+  height: 40vw;
+}
+
 @media (max-width: 700px) {
   header {
     flex-direction: column;

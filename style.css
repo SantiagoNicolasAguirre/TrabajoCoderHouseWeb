@@ -1,4 +1,4 @@
-body {
+/*body {
     background-image: url(https://services.meteored.com/img/article/por-que-el-cielo-se-torna-naranja-durante-el-atardecer-1684770960305_1280.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -6,13 +6,13 @@ body {
     background-size: cover;
 }
 
-/*tipografia*/
+/*tipografia
 @font-face {
     font-family: "Santiago";
     src: url(./../Assets/Fonts/kanit/Kanit-Black.ttf);
 }
 
-/*barra de navegacion*/
+/*barra de navegacion
 
 nav {
     display: flex;
@@ -45,14 +45,14 @@ ul a{
 
 
 
-/*Titulo*/
+/*Titulo
 .Titulo1{
     padding: 50px;
     text-align: center;
     color: white;
 }
 
-/*Fotos*/
+/*Fotos
 
 /*
 .todosjuntos{
@@ -66,7 +66,7 @@ ul a{
     margin-left: center;
     justify-content: center;
     align-items: center;
-}*/
+}
 
 .tx23 {
     padding: 50px;
@@ -107,11 +107,12 @@ li h3 {
     justify-content: center;
     width: 1500px;
     min-height: 700px;
-    }*/
+    }
 
 @media (max-width:700px){
     header{
         flex-direction: column; }}
+    
     
 
 
