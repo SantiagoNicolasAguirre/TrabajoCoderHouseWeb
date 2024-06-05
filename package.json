@@ -1,0 +1,25 @@
+{
+  "name": "preentrega1-aguirre--",
+  "version": "1.0.0",
+  "description": "Proyecto para curso de CoderHouse",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagoNicolasAguirre/TrabajoCoderHouseWeb.git"
+  },
+  "keywords": [
+    "iglesia",
+    "congregacion",
+    "alabanza",
+    "Dios"
+  ],
+  "author": "santinico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiagoNicolasAguirre/TrabajoCoderHouseWeb/issues"
+  },
+  "homepage": "https://github.com/SantiagoNicolasAguirre/TrabajoCoderHouseWeb#readme"
+}
