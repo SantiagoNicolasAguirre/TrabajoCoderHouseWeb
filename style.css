@@ -18,14 +18,14 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-left: 5%;
     padding-right: 5%;
 }
 
 h1{
     color: white;
-    font-size: 45px;
+    font-size: 55px;
 }
 
 ul li{
@@ -33,7 +33,7 @@ ul li{
     padding: 0px 20px;
 }
 
-li a{
+ul a{
     color: white;
     text-decoration: none;
 }
